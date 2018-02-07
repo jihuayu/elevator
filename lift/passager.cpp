@@ -34,7 +34,7 @@ int passager::in_out(int liftfloor,int nowtime) {
   return costtime;
 }
 
-int passager::call(int nowtime) {
+void passager::call(int nowtime) {
   if (nowtime >= time&&isok==0) {
     
     goal=floor;
@@ -45,7 +45,6 @@ int passager::call(int nowtime) {
   else {
     goal = 0;
   }
-  return goal;
 }
 
 istream & operator >>(istream & is, passager & c) {

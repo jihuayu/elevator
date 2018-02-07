@@ -14,7 +14,7 @@ public:
   passager();
   ~passager();
 
-  int call(int);
+  void call(int);
   int in_out(int,int);
   friend istream & operator >>(istream &, passager &);
 };
