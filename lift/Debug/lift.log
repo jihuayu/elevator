@@ -1,0 +1,3 @@
+﻿  lift.cpp
+c:\users\13705\source\repos\lift\lift\lift.cpp(44): warning C4305: “return”: 从“bool (__cdecl *)(passager *,int,int,int &)”到“bool”截断
+  lift.vcxproj -> C:\Users\13705\source\repos\lift\Debug\lift.exe
