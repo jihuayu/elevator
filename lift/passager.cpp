@@ -48,15 +48,7 @@ void passager::call(int nowtime) {
 }
 
 istream & operator >>(istream & is, passager & c) {
-  is >> c.time >> c.floor;
-  int num;
-  is >> num;
-  if (num == 0) {
-    c.direction = 10;
-  }
-  else {
-    c.direction = 1;
-  }
+  is >> c.time >> c.floor >> c.direction;
   c.goal = 0;
   return is;
 }
